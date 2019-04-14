@@ -114,7 +114,6 @@ li {
   padding-left: 50px;
 }
 
-
 // Form
 input:focus, textarea:focus {
   outline: 0;
@@ -144,4 +143,38 @@ input:focus, textarea:focus {
   font-size: 36px;
   text-align: left;
   padding-left: 50px;
+}
+
+// Show
+.post-show-item {
+  color: #000;
+  background-color: #fff;
+  font-size: 24px;
+  width: 860px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #dcdcdc;
+  text-align: left;
+}
+
+.post-show-item p {
+  margin-bottom: 25px;
+}
+
+.post-time {
+  color: #8899a6;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.post-menus {
+  text-align: right;
+}
+
+.post-menus a {
+  color: #8899a6;
+  font-size: 15px;
+  text-decoration: underline;
 }
