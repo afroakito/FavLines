@@ -1,0 +1,82 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Index
+a {
+  text-decoration: none
+}
+
+.heading {
+  font-size: 36px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.header {
+  color: #000;
+}
+
+.post-container {
+  background-color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  width: 860px;
+  padding: 25px;
+  padding-bottom: 50px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #dcdcdc;
+}
+
+// New
+.form {
+  position: relative;
+  width: 506px;
+  margin: 0 auto;
+}
+
+.new-bg textarea[name="content"] {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+.new-main {
+  padding: 80px;
+}
+
+.new-main .form-error {
+  position: relative;
+  top: -30px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  padding: 10px;
+  background-color: #66cdaa;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: -50px;
+  right: 0px;
+}
+
+.title-form {
+  // height: 30px;
+}
+
+input[name="title"] {
+  position: absolute;
+  top: -45px;
+  left: 0;
+  width: 500px;
+  height: 20px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  top: -80px;
+}

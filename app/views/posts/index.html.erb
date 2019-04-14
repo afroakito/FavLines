@@ -1,0 +1,16 @@
+<div class="posts-main bg-color">
+  <h2 class="heading">みんなの投稿一覧</h2>
+
+  <div class="container">
+    <div class="post-container">
+      <% @posts.each do |post| %>
+      <ul class="post-list">
+        <li class="post">
+          <div class="sentence"><%= link_to(post.content, "")%></div>
+          <p class="book">著書: <%= link_to(post.title, "書く本の情報が書確認できるページ（アマゾンとか？）") %></p>
+        </li>
+      </ul>
+      <% end %>
+    </div>
+  </div>
+</div>

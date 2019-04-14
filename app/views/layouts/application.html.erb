@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FavLines</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header-logo" style="font-size: 20px;"><%= link_to("FavLines", "/")%></div>
+      <!-- ↑実際はロゴ画像です -->
+      <li>
+        <%= link_to("about FavLines", "/about") %>
+      </li>
+      <li>
+        <%= link_to("FavLines there", "/posts/index") %>
+      </li>
+      <li>
+        <%= link_to("new post", "/posts/new") %>
+      </li>
+    </div>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+# 文章の日本語化
+ja:
+  activerecord:
+    models:
+      post: 投稿
+    attributes:
+      post:
+        content: 文章
+        title: タイトル
