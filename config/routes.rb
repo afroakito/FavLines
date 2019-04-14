@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+    root "home#top"
+
     get "login_form" => "users#login_form"
 
     get "/" => "home#top"
